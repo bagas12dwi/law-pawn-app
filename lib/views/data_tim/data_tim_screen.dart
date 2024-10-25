@@ -27,7 +27,7 @@ class DataTimScreen extends StatelessWidget {
                     nama: 'Azizah Kaltsum Mabrukah',
                     tanggal: 'Bekasi, 23 September 2003',
                     email: '21071010033@student.upnjatim.ac.id',
-                    profilPath: 'assets/profil.jpg',
+                    profilPath: 'assets/azizah.jpg',
                   ),
                 ),
                 GestureDetector(
@@ -36,7 +36,7 @@ class DataTimScreen extends StatelessWidget {
                     nama: 'Uzlifatus Dea Arianty',
                     tanggal: 'Sidoarjo, 13 Juli 2003',
                     email: '21071010033@student.upnjatim.ac.id',
-                    profilPath: 'assets/profil.jpg',
+                    profilPath: 'assets/dea.jpg',
                   ),
                 ),
                 GestureDetector(
@@ -45,7 +45,7 @@ class DataTimScreen extends StatelessWidget {
                     nama: 'Farizza Taralita Arrachma Fachrezzi',
                     tanggal: 'Kediri, 27 Juni 2002',
                     email: '21071010033@student.upnjatim.ac.id',
-                    profilPath: 'assets/profil.jpg',
+                    profilPath: 'assets/farizza.jpg',
                   ),
                 ),
               ],

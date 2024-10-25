@@ -165,8 +165,16 @@ class HomeScreen extends StatelessWidget {
                 bgPath: 'assets/konsultasi.jpg',
                 onTap: () { Get.toNamed(Routes.KONSULTASI); },
               ),
-              CardMenu(title: "Data Tim", bgPath: 'assets/tim.jpg', onTap: () {  },),
-              CardMenu(title: "Panduan", bgPath: 'assets/panduan.jpg', onTap: () {  },),
+              CardMenu(
+                title: "Data Tim",
+                bgPath: 'assets/tim.jpg',
+                onTap: () { Get.toNamed(Routes.DATA); },
+              ),
+              CardMenu(
+                title: "Panduan",
+                bgPath: 'assets/panduan.jpg',
+                onTap: () { Get.toNamed(Routes.PANDUAN); },
+              ),
               CardMenu(title: "Mitra", bgPath: 'assets/mitra.jpg', onTap: () {  },),
             ],
           ),
@@ -296,8 +304,14 @@ class HomeScreen extends StatelessWidget {
                 title: "Data Tim",
                 bgPath: 'assets/tim.jpg',
                 onTap: () { Get.toNamed(Routes.DATA); },),
-              CardMenu(title: "Panduan", bgPath: 'assets/panduan.jpg', onTap: () {  },),
-              CardMenu(title: "Mitra", bgPath: 'assets/mitra.jpg', onTap: () {  },),
+              CardMenu(
+                title: "Panduan", 
+                bgPath: 'assets/panduan.jpg', 
+                onTap: () { Get.toNamed(Routes.PANDUAN); },
+              ),
+              CardMenu(title: "Mitra", bgPath: 'assets/mitra.jpg', onTap: () {
+                Get.toNamed(Routes.MITRA);
+              },),
             ],
           ),
         ],
